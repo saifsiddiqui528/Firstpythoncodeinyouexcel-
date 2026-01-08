@@ -1,0 +1,85 @@
+# fname=input("Enter your first name:")
+# lname=input("Enter your last name:")
+# birthyear=int(input("Enter your birth year:"))
+# Email=input("Enter your email:")
+# contact=input("Enter your Contact:")
+# 
+# 
+# age=2026-birthyear
+# 
+# 
+# print("\t****This is your information*****\n", "Your fullname:", fname +" "+ lname, "\n your age as per today:" , age, "\n your email:", Email, "\n this is your contact:", contact)
+# 
+# 
+# print(f"This is your full name: {fname+lname}")
+
+#Decision
+
+# saif=50
+# ali=40
+# 
+# print (saif<ali)
+
+# if <condition/value><relational oprator><condition/value>:
+# ----<block of if condition / <block of code>
+#     
+# else
+# -----<block of code> / work if
+
+# shamas=20
+# saifbhai=35
+# 
+# if shamas==saifbhai:
+#     print("shamas is equal to saifbhai")
+# else:
+#     print("shamas is not equal to saifbhai")
+
+
+
+
+
+# print("*****wlecome to Netflix*****")
+# name=input("Enter your name:")
+# birthyear=int(input("Enter your birth year:"))
+# age=2026-birthyear
+# 
+# if age>=18:
+#     print("Welcome to Netflix, Yor are eligible to proceed")
+# else:
+#     print("Watch pogo TV, you are not eligible to proceed!")
+
+
+
+# print("*****wlecome to Netflix*****")
+# name=input("Enter your name:")
+# birthyear=int(input("Enter your birth year:"))
+# age=2026-birthyear
+# 
+# if name=="saif":
+#     print(f"Welcome {name}, to the netflix!, Your age is {age}")
+# elif name=="rafay":
+#     print(f"Welcome {name}, to the netflix!, Your age is {age}")
+# elif name=="shamas":
+#     print(f"Welcome {name}, to the netflix!, Your age is {age}")
+# elif name=="ali":
+#     print(f"Welcome {name}, to the netflix!, Your age is {age}")
+# else:
+#     print("You are not allowed")
+
+print("*****wlecome to Ali Cloth Shop*****")
+name=input("Enter your full name:")
+email=input("Enter your email:")
+budget=int(input("Enter your budget amount:"))
+
+
+if budget<=10000:
+    print(f"Dear {name}, Welcome to casual wears, your budget is {budget}")
+elif budget<=5000:
+    print(f"Dear {name}, Welcome to party wears, your budget is {budget}")
+elif budget>=10000:
+    print(f"Dear {name}, Welcome to formal wears, your budget is {budget}")
+    
+else:
+    print("You are not eligiable to buy cloth")
+
+
